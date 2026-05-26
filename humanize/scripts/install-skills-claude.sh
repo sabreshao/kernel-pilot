@@ -172,10 +172,10 @@ link_skill() {
 
 resolve_external_skill_roots() {
     if [[ -z "$KERNELWIKI_ROOT" ]]; then
-        KERNELWIKI_ROOT="$KERNELPILOT_ROOT/external/KernelWiki"
+        KERNELWIKI_ROOT="$KERNELPILOT_ROOT/external/RocmKernelWiki"
     fi
     if [[ -z "$NCU_REPORT_SKILL_ROOT" ]]; then
-        NCU_REPORT_SKILL_ROOT="$KERNELPILOT_ROOT/external/ncu-report-skill"
+        NCU_REPORT_SKILL_ROOT="$KERNELPILOT_ROOT/external/rocprof-report-skill"
     fi
 
     KERNELWIKI_ROOT="$(cd "$KERNELWIKI_ROOT" 2>/dev/null && pwd || true)"
