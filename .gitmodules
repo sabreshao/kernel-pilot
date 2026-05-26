@@ -1,8 +1,8 @@
-[submodule "external/KernelWiki"]
-	path = external/KernelWiki
+[submodule "external/RocmKernelWiki"]
+	path = external/RocmKernelWiki
 	url = https://github.com/sabreshao/RocmKernelWiki.git
-	branch = kernelpilot-knowledge-expansion
-[submodule "external/ncu-report-skill"]
-	path = external/ncu-report-skill
-	url = https://github.com/sabreshao/RocmKernelWiki.git
-	branch = main
+	branch = master
+[submodule "external/rocprof-report-skill"]
+	path = external/rocprof-report-skill
+	url = https://github.com/sabreshao/rocprof-report-skill
+	branch = develop
